@@ -5,7 +5,7 @@ package org.example;
  * It includes additional information about the quality of the paper used in the album.
  */
 public class ArtAlbum extends Book {
-    private String paperQuality;
+    private final String paperQuality;
 
     /**
      * Constructs an {@code ArtAlbum} with the specified name, number of pages, and paper quality.
